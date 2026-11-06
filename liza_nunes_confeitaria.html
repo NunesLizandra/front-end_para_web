@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Liza Nunes Confeitaria</h1>
+        <nav aria-label="Menu principal">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#precos">Preços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="banner">
+            <div class="conteudo">
+                <div class="banner-texto">
+                    <h1> Bolos e doces feitos à mão, com muito carinho</h1>
+                    <p>Encomende para o aniversário, o café da tarde ou aquele presente especial.</p>
+                    <a class="botão" href="#contato">Fale comigo</a>
+                </div>
+
+                <div class="banner-imagem">
+                    <img src="/assets/bolorosadecorado.svg" alt="Ilustração de um bolo rosa e amarelo" width="300" height auto margin: 20px border-radius: 8px/>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="conteudo">
+            <h2>Sobre mim</h2>
+
+            <p>
+                Sou Liza Nunes, proprietária da Liza Nunes Confeitaria. Com mais de 8 anos de experiência no ramo, busco criar produtos únicos e saborosos que encantem os clientes. Trabalho com bolos, doces finos, bem casados e brownies.
+            </p>
+
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="conteudo">
+                <h2>Serviços</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Bolos Personalizados</h3>
+                        <p>Ofereço bolos personalizados para aniversários, casamentos e outras ocasiões especiais. Cada bolo é feito com ingredientes de alta quality e decorado com atenção aos detalhes.</p>
+                        <p class="card-preco">A partir de R$ 300,00</p>
+                    </article>
+                    <article class="card">
+                        <h3>Doces Finos</h3>
+                        <p>Ofereço doces finos elaborados com ingredientes selecionados e apresentados com elegância.</p>
+                        <p class="card-preco">A partir de R$ 75,00</p>
+                    </article>    
+                    <article class="card">
+                        <h3>Bem Casados</h3>
+                        <p>Ofereço bem casados deliciosos, ideais para casamentos e eventos especiais.</p>
+                        <p class="card-preco">A partir de R$ 4,50 cada</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="precos">
+            <div class="conteudo">
+                <h2>Tabela de preços</h2>
+                <table class="tabela"> 
+                    <caption>Valores dos produtos mais pedidos</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Tamanho</th>
+                            <th scope="col">Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bolo decorado</td>
+                            <td>15 cm</td>
+                            <td>R$ 300,00</td>
+                        </tr>
+                        <tr>
+                            <td>Doces Finos</td>
+                            <td>100 unidades</td>
+                            <td>R$ 380,00</td>
+                        </tr>
+                        <tr>
+                            <td>Bem Casado</td>
+                            <td>15 unidades</td>
+                            <td>R$ 60,00</td>
+                        </tr>
+                        <tr>
+                            <td>Brownie</td>
+                            <td>15 unidade</td>
+                            <td>R$ 67,50</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">Encomendas com 3 dias de antecedência.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <p>Os preços variam de acordo com o tamanho e a complexidade do pedido. Entre em contato para solicitar um orçamento personalizado.</p>
+            </div>
+        </section> 
+        <section id="contato">
+            <div class="conteudo">
+                <h2>Fale comigo</h2>
+                <p>Entre em contato para fazer seu pedido ou tirar dúvidas:</p>
+                <form action="#" method="get">
+                    <div class="campo">
+                        <label for="nome">Seu nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Ex.: Liza Nunes" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(21) 99874-1234">
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto">
+                            <option value="encomenda">Fazer uma encomenda</option>
+                            <option value="orcamento">Pedir um orçamento</option>
+                            <option value="duvida">Tirar uma dúvida</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+
+                    <fieldset class="campo">
+                        <legend>Como prefere que eu responda?</legend>
+                        <label class="opcao"><input type="radio" name="resposta" value="whatsapp" checked> WhatsApp</label>
+                        <label class="opcao"><input type="radio" name="resposta" value="email"> E-mail</label>
+                    </fieldset>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte o que você precisa e para quando."></textarea>
+                    </div>
+                    <button type="submit" class="botao">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>  
+    </main>
+    <footer>
+        <div class="conteudo">
+            <p>© 2026 Liza Nunes Confeitaria. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

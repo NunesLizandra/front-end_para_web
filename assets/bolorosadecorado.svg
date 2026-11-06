@@ -1,0 +1,126 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" role="img" aria-labelledby="cake-title">
+  <title id="cake-title">Bolo decorado rosa e amarelo com chocolate e laço</title>
+  <defs>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF5B9"/>
+      <stop offset="1" stop-color="#F3C957"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFC2D3"/>
+      <stop offset="0.55" stop-color="#F486A8"/>
+      <stop offset="1" stop-color="#D94E7C"/>
+    </linearGradient>
+    <linearGradient id="chocolate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A96745"/>
+      <stop offset="0.45" stop-color="#713A29"/>
+      <stop offset="1" stop-color="#482319"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sombra e base -->
+  <ellipse cx="200" cy="390" rx="158" ry="15" fill="#D8A5A6" opacity=".25"/>
+  <ellipse cx="200" cy="366" rx="166" ry="31" fill="#F8A2B9" stroke="#C94E78" stroke-width="3"/>
+  <ellipse cx="200" cy="359" rx="156" ry="25" fill="#FFE9A6" stroke="#D8A34A" stroke-width="3"/>
+  <ellipse cx="200" cy="354" rx="137" ry="17" fill="#FFF8E5"/>
+
+  <!-- Corpo do bolo -->
+  <path d="M49 190 Q49 151 86 151 H314 Q351 151 351 190
+           V319 Q351 348 320 350 H80 Q49 348 49 319Z"
+        fill="url(#cream)" stroke="#D8A34A" stroke-width="3"/>
+
+  <!-- Cobertura rosa com gotas -->
+  <path d="M45 177 Q45 137 88 137 H312 Q355 137 355 177
+           L347 222 Q341 235 333 217 L325 194
+           Q318 185 310 202 L299 230 Q291 242 285 224
+           L275 194 Q268 183 259 201 L248 220
+           Q240 234 232 216 L221 190
+           Q214 179 205 198 L195 219
+           Q187 232 179 214 L168 191
+           Q160 180 152 198 L142 224
+           Q134 238 126 219 L116 197
+           Q108 186 100 204 L89 225
+           Q81 237 73 219 L64 192Z"
+        fill="url(#pink)" stroke="#D94E7C" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Brilho da cobertura -->
+  <path d="M64 167 Q72 146 98 146 H301"
+        fill="none" stroke="#FFF0F2" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Rosetas decorativas na base -->
+  <g fill="url(#pink)" stroke="#D95D82" stroke-width="2">
+    <circle cx="75" cy="326" r="23"/>
+    <circle cx="112" cy="341" r="24"/>
+    <circle cx="151" cy="346" r="23"/>
+    <circle cx="200" cy="348" r="24"/>
+    <circle cx="249" cy="346" r="23"/>
+    <circle cx="288" cy="341" r="24"/>
+    <circle cx="325" cy="326" r="23"/>
+  </g>
+  <g fill="none" stroke="#FFE1E8" stroke-width="4" stroke-linecap="round">
+    <path d="M62 323 Q70 306 82 324"/>
+    <path d="M99 338 Q107 320 119 338"/>
+    <path d="M138 343 Q146 325 158 343"/>
+    <path d="M187 345 Q195 326 207 345"/>
+    <path d="M236 343 Q244 325 256 343"/>
+    <path d="M275 338 Q283 320 295 338"/>
+    <path d="M312 323 Q320 306 332 323"/>
+  </g>
+
+  <!-- Confeitos -->
+  <g stroke="#DDA04C" stroke-width="1.5">
+    <circle cx="83" cy="260" r="5" fill="#F486A8"/>
+    <circle cx="121" cy="285" r="4" fill="#B86B37"/>
+    <circle cx="164" cy="251" r="5" fill="#F486A8"/>
+    <circle cx="218" cy="283" r="5" fill="#E8AD3E"/>
+    <circle cx="271" cy="253" r="5" fill="#F486A8"/>
+    <circle cx="315" cy="280" r="4" fill="#B86B37"/>
+    <circle cx="99" cy="224" r="4" fill="#FFF0BB"/>
+    <circle cx="299" cy="224" r="4" fill="#FFF0BB"/>
+  </g>
+
+  <!-- Chocolate no topo -->
+  <g transform="rotate(-8 200 104)">
+    <path d="M151 54 Q151 48 158 48 H242 Q249 48 249 55 V133
+             L238 145 H162 L151 133Z"
+          fill="url(#chocolate)" stroke="#482319" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M161 60 H196 V88 H161Z M204 60 H239 V88 H204Z
+             M161 96 H196 V124 H161Z M204 96 H239 V124 H204Z"
+          fill="#8B4C32" stroke="#4B261B" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="none" stroke="#C48A62" stroke-width="2.5" stroke-linecap="round">
+      <path d="M165 64 H190"/>
+      <path d="M208 64 H233"/>
+      <path d="M165 100 H190"/>
+      <path d="M208 100 H233"/>
+    </g>
+  </g>
+
+  <!-- Laço grande rosa -->
+  <g stroke="#C94E78" stroke-width="3" stroke-linejoin="round">
+    <path d="M194 147 C163 105 118 99 115 125
+             C112 151 151 170 195 160Z"
+          fill="url(#pink)"/>
+    <path d="M206 147 C237 105 282 99 285 125
+             C288 151 249 170 205 160Z"
+          fill="url(#pink)"/>
+    <path d="M191 153 L153 216 L190 201 L200 228 L210 158Z"
+          fill="#ED7197"/>
+    <path d="M209 153 L247 216 L210 201 L200 228 L190 158Z"
+          fill="#F69AB4"/>
+    <ellipse cx="200" cy="149" rx="15" ry="18" fill="#E96590"/>
+  </g>
+  <g fill="none" stroke="#FFE0E9" stroke-width="3" stroke-linecap="round">
+    <path d="M187 143 Q157 115 132 123"/>
+    <path d="M213 143 Q243 115 268 123"/>
+    <path d="M183 166 L164 198"/>
+    <path d="M217 166 L236 198"/>
+  </g>
+
+  <!-- Pequenos brilhos -->
+  <g fill="#FFFFFF">
+    <path d="M66 115 L70 125 L80 129 L70 133 L66 143 L62 133 L52 129 L62 125Z"/>
+    <path d="M326 105 L329 112 L336 115 L329 118 L326 125 L323 118 L316 115 L323 112Z"/>
+    <circle cx="100" cy="112" r="3"/>
+    <circle cx="301" cy="94" r="3"/>
+  </g>
+</svg>
